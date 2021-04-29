@@ -36,13 +36,16 @@ def temp_classifier(temp_celsius):
       return 3
 # Use your newly created function to print the answers to the following questions:
 
+ # Reclassify temperature.
+ #temp_celsius
+ #4 classes from 0 to 3
 
 # 1. What is the class value for 16.5 degrees Celsius?
 # YOUR CODE HERE
-#
+print ("temp",temp_classifier(16.5))
 # 2. What is the class value for +2 degrees Celsius?
 # YOUR CODE HERE
-#
+print("temp",temp_classifier(2))
 
 
 # ### Problem 2 tests
@@ -75,7 +78,7 @@ print("ok :)")
 
 # YOUR ANSWER HERE. Write your answer as comments
 #
-#
+# Yes, I do.
 #
 #
 #
