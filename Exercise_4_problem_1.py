@@ -17,15 +17,18 @@
 # - Returning the converted value from the function back to the user
 # - Answering some questions about functions at the end of this problem
 # - Adding comments in your code and a docstring that explains how to use your `fahr_to_celsius` function (i.e., you should write the purpose of the function, parameters, and returned values)
-
+# To change the fahrenheit temperatrur to Celsius temperatrur.
+# fahrenheit temperatrure
+# Celsius temperatrur
 # YOUR CODE HERE
 def fahr_to_celsius(temp_fahrenheit):
   return(temp_fahrenheit-32)/1.8
 # ### Problem 1 tests
-# 
+#
 # Check that the function produces correct answers for:
 # 1. What is 48° Fahrenheit in Celsius? 
 # 2. What about 71° Fahrenheit in Celsius?
+
 
 # ### Check your code
 # 
@@ -43,8 +46,8 @@ def fahr_to_celsius(temp_fahrenheit):
 # Write your answers below:
 
 # YOUR ANSWER HERE. Write your answers as comments
-#
-#
+#1 I understand.
+#2 The code is easier to read.
 #
 #
 
