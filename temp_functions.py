@@ -1,5 +1,8 @@
 def fahr_to_celsius(temp_fahrenheit):
-  return(temp_fahrenheit-32)/1.8
+  #TO change from fahrenheit to celsius
+  #temp_fahrenheit: The temperature to change.
+  converted_temp = (temp_fahrenheit-32)/1.8
+  return converted_temp
 
 def temp_classifier(temp_celsius):
   #The purpose of function : Separate the Temperatures
