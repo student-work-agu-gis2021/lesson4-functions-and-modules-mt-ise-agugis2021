@@ -22,7 +22,8 @@
 # Celsius temperatrur
 # YOUR CODE HERE
 def fahr_to_celsius(temp_fahrenheit):
-  return(temp_fahrenheit-32)/1.8
+  converted_temp = (temp_fahrenheit-32)/1.8
+  return converted_temp
 # ### Problem 1 tests
 #
 # Check that the function produces correct answers for:
@@ -30,7 +31,8 @@ def fahr_to_celsius(temp_fahrenheit):
 # 2. What about 71° Fahrenheit in Celsius?
 
 # ### Check your code
-# 
+print(fahr_to_celsius(48))
+print(fahr_to_celsius(71))
 # - Make sure you used the given variable names
 # - Check that you have added necessary comments to your code
 # - Check that your function has a docstring that describes what it does
