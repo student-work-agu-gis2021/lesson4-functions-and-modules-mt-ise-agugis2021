@@ -26,6 +26,9 @@
 
 # YOUR CODE HERE to define temp_classifier
 def temp_classifier(temp_celsius):
+  #The purpose of function : Separate the Temperatures
+  #Paramater: temp_celsius
+  #4 classes from 0 to 3
   if temp_celsius<-2:
    return 0
   elif temp_celsius<2:
@@ -36,9 +39,7 @@ def temp_classifier(temp_celsius):
     return 3
 # Use your newly created function to print the answers to the following questions:
 
- # Reclassify temperature.
- #temp_celsius
- #4 classes from 0 to 3
+ 
 
 # 1. What is the class value for 16.5 degrees Celsius?
 # YOUR CODE HERE
