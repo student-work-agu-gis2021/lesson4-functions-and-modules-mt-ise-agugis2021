@@ -26,9 +26,9 @@
 
 # YOUR CODE HERE to define temp_classifier
 def temp_classifier(temp_celsius):
-  #The purpose of function : Separate the Temperatures
-  #Paramater: temp_celsius
-  #4 classes from 0 to 3
+  """The purpose of function : Separate the Temperatures
+  Paramater: temp_celsius
+  4 classes from 0 to 3"""
   if temp_celsius<-2:
    return 0
   elif temp_celsius<2:
