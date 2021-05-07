@@ -22,8 +22,8 @@
 # Celsius temperatrur
 # YOUR CODE HERE
 def fahr_to_celsius(temp_fahrenheit):
-  #TO change from fahrenheit to celsius
-  #temp_fahrenheit: The temperature to change.
+  """TO change from fahrenheit to celsius
+  #temp_fahrenheit: The temperature to change."""
   converted_temp = (temp_fahrenheit-32)/1.8
   return converted_temp
 # ### Problem 1 tests
