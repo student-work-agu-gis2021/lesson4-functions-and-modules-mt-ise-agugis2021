@@ -72,6 +72,8 @@ for i in range(len(temp_data)):
   temp_class=temp_classifier(temp_celsius)
   temp_classes.append(temp_class)
 
+print(temp_celsius)
+
 # #### Part 2 (continues)
 
 # 
